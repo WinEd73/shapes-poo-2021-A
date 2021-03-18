@@ -2,7 +2,7 @@ package uaslp.ingenieria.labs;
 
 // No tiene sentido instanciar Shape
 
-public class Shape {
+public class Shapex {
 
     public String getName() {
         return "shape";
@@ -13,11 +13,9 @@ public class Shape {
         return 0;
     }
 
-    public int getPerimeter() {
+    public double getPerimeter() {
         return 0;
     }
 
-    public double getArea() {
-        return 0;
-    }
+    public double getArea() { return 0; }
 }
